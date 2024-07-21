@@ -1,4 +1,4 @@
-# OllamaYTSum
+# OllamaYTSumm
 A simple youtube summarizer using a local AI ollama server
 
 ## Technology used
