@@ -1,5 +1,6 @@
-# OllamaYTSumm
-A simple youtube summarizer using a local AI ollama server
+# Ollama Youtube Video Summarizer
+A simple youtube summarizer using a local AI ollama server.
+Today we have so much content online an so few time to be able to watch everything, that I've thought it would be cool to make a simple script to having a summary of the video previously to viewing it so I can decide if its worthy or not to see it. 
 
 ## Technology used
 * Python
