@@ -2,19 +2,20 @@ import time
 from ollama import Client
 from youtube_transcript_api import YouTubeTranscriptApi
 
-
-AI = Client(host='http://192.168.0.42:11434')
+# YOUR OLLAMA SERVER
+AI = Client(host='http://ollama-server:11434')
 
 def getVideoID(url) -> str:
     """
-    This function gets the video id from the url provided by the user
+    This function gets the video id from the url provided by the user.
     """
     video_id = url.split("v=")[1]
     return video_id
 
 def get_transcription(video_id) -> dict:
     """
-    Gets the transcript of the video in english directly from Youtube
+    Gets the transcript of the video directly from Youtube (default=en).
+    Returns a dictionary.
     """
     transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
     transcript = YouTubeTranscriptApi.get_transcript(video_id)
