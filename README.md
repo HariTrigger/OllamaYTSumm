@@ -27,3 +27,14 @@ pip install -r requirements.txt
 ```
 python3 main.py
 ```
+
+## To Do 
+* Work the system prompt to get the best result possible with (hopefully) the most ammount of models.
+* Make the script asynchronous so we can activate the Stream of the response from the server, and see it real time.
+* Make a web UI so I don't deppend on the console to do this. (Didn't tought on how yet, suggestions are welcome)
+
+### Disclaimer
+This is a script I've made for fun and to solve my own problem while learning through it. 
+
+## Contributions
+Any contribution is welcome and thanks in advance to the ones who do so...
