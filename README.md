@@ -10,11 +10,16 @@ A simple youtube summarizer using a local AI ollama server
 ## Install
 Remember that this relies on having already a runnning Ollama Server.
 
-1. Clone the repo
+**1. Clone the repo**
 ```
 git clone https://github.com/HariTrigger/OllamaYTSum/
 ```
-2. Install the requirements
+**2. Install the requirements**
 ```
 pip install -r /requirements.txt
+```
+
+## Run the script
+```
+python3 main.py
 ```
