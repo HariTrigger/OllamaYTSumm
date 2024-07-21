@@ -15,11 +15,12 @@ Remember that this relies on having already a runnning Ollama Server.
 
 **1. Clone the repo**
 ```
-git clone https://github.com/HariTrigger/OllamaYTSum/
+git clone https://github.com/HariTrigger/OllamaYTSumm/
 ```
 **2. Install the requirements**
 ```
-pip install -r /requirements.txt
+cd OllamaYTSumm
+pip install -r requirements.txt
 ```
 
 ## Run the script
