@@ -11,7 +11,7 @@ Today we have so much content online and so few time to be able to watch everyth
 * [jdepoix/youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api/)
 
 ## Install
-Remember that this relies on having already a runnning Ollama Server.
+Remember that this relies on having already a running Ollama Server.
 
 **1. Clone the repo**
 ```
