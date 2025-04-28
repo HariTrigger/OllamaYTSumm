@@ -18,7 +18,16 @@ def get_transcription(video_id) -> dict:
     Returns a dictionary.
     """
     transcript_list = YouTubeTranscriptApi.list_transcripts(video_id)
-    transcript = YouTubeTranscriptApi.get_transcript(video_id)
+    try:
+        transcript_array = YouTubeTranscriptApi.get_transcript(video_id)
+    except Exception:
+        for lang in transcript_list:
+            lan = lang.language_code
+            break
+        transcript_array = YouTubeTranscriptApi.get_transcript(video_id, languages=[lan])
+    transcript = ""
+    transcript = " ".join([elem['text'] for elem in transcript_array])
+    print("\nTranscript: " + transcript)
     return transcript
 
 
