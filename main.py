@@ -3,7 +3,7 @@ from ollama import Client
 from youtube_transcript_api import YouTubeTranscriptApi
 
 # YOUR OLLAMA SERVER
-AI = Client(host='http://ollama-server:11434')
+AI = Client(host='http://localhost:11434')
 
 def getVideoID(url) -> str:
     """
@@ -57,9 +57,9 @@ def main():
     availableModels = getAvailableModels()
     
     print("\nAvailable models: ")
-    model_names = [each['name'] for each in availableModels['models']]
-    for i, name in enumerate(model_names, start=1):
-        print(f"{i}: {name}")
+    model_names = [each['model'] for each in availableModels['models']]
+    for i, model in enumerate(model_names, start=1):
+        print(f"{i}: {model}")
     
     print("\n")
     selected_model_index = int(input("Choose the model you want to use: "))
