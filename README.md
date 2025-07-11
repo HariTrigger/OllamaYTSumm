@@ -29,7 +29,7 @@ python3 main.py
 ```
 
 ## To Do 
-* Update the code to adapt to changes made to youtube-transcript-api (several important changes made on v1.0.0)
+* Update the code to adapt to changes made to youtube-transcript-api (several important changes made on [v1.0.0](https://github.com/jdepoix/youtube-transcript-api/releases/tag/v1.0.0))
 * Work the system prompt to get the best result possible with (hopefully) the most ammount of models.
 * Make the script asynchronous so we can activate the Stream of the response from the server, and see it real time.
 * Make a web UI so I don't deppend on the console to do this. (Didn't tought on how yet, suggestions are welcome)
