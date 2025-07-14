@@ -1,2 +1,2 @@
-ollama
-youtube-transcript-api
+ollama~=0.5
+youtube-transcript-api~=1.1
