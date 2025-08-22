@@ -37,5 +37,13 @@ python3 main.py
 ### Disclaimer
 This is a script I've made for fun and to solve my own problem while learning through it. 
 
+
+## Forkers
+[![Forkers repo roster for @HariTrigger/OllamaYTSumm](https://reporoster.com/forks/HariTrigger/OllamaYTSumm)](https://github.com/HariTrigger/OllamaYTSumm/network/members)
+
 ## Contributions
 Any contribution are welcome, and thanks in advance to the ones who do so...
+Thank you to the people that already did.
+### Contributors:
+[![Contributors](https://contrib.rocks/image?repo=HariTrigger/OllamaYTSumm)](https://github.com/HariTrigger/OllamaYTSumm/graphs/contributors)
+
